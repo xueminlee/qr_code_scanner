@@ -1,3 +1,6 @@
+## 0.3.0-nullsafety.0
+* Adds null safety check.
+
 ## 0.2.1
 * Fixed critical bug where scanner wouldn't open when no scan overlay was configured.
 
