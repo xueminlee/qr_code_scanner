@@ -96,8 +96,7 @@ class QRView extends StatefulWidget {
     required this.onQRViewCreated,
     this.overlay,
     this.overlayMargin = EdgeInsets.zero,
-  })  : assert(onQRViewCreated != null),
-        super(key: key);
+  })  : super(key: key);
 
   final QRViewCreatedCallback onQRViewCreated;
 
