@@ -96,7 +96,7 @@ class QRView extends StatefulWidget {
     required this.onQRViewCreated,
     this.overlay,
     this.overlayMargin = EdgeInsets.zero,
-  })  : super(key: key);
+  }) : super(key: key);
 
   final QRViewCreatedCallback onQRViewCreated;
 
@@ -159,7 +159,8 @@ class _QRViewState extends State<QRView> {
       cutOutSize = (widget.overlay as QrScannerOverlayShape).cutOutSize;
     }
 
-    widget.onQRViewCreated(QRViewController._(id, widget.key as GlobalKey<State<StatefulWidget>>, cutOutSize));
+    widget.onQRViewCreated(QRViewController._(
+        id, widget.key as GlobalKey<State<StatefulWidget>>, cutOutSize));
   }
 }
 

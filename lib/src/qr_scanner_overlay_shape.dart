@@ -65,9 +65,7 @@ class QrScannerOverlayShape extends ShapeBorder {
     final _borderLength = borderLength > cutOutSize / 2 + borderWidth * 2
         ? borderWidthSize / 2
         : borderLength;
-    final _cutOutSize = cutOutSize < width
-        ? cutOutSize
-        : width - borderOffset;
+    final _cutOutSize = cutOutSize < width ? cutOutSize : width - borderOffset;
 
     final backgroundPaint = Paint()
       ..color = overlayColor
