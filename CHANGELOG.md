@@ -1,3 +1,6 @@
+## 0.4.0-nullsafety.0 
+Adds null safety to version 0.3.4.
+
 ## 0.3.4
 #### Bug fixes
 * Fixed No barcode view found on Android when calling controller.dispose() (#257)
@@ -20,6 +23,9 @@
 * Fixed camera facing not working on Android.
 * Fixed scanArea not being honored on Android.
 * Updated ShapeBorder to QrScannerOverlayShape.
+
+## 0.3.0-nullsafety.0 
+Adds null safety to version 0.2.1.
 
 ## 0.3.0
 #### Breaking change
